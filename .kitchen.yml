@@ -1,0 +1,18 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_solo
+
+platforms:
+  - name: ubuntu-12.04
+#   - name: centos-6.4
+
+suites:
+  - name: default
+    run_list:
+      - recipe[chef_handler_orchestrate_io::default]
+    attributes:
+      chef_handler_orchestrate_io:
+        apikey: YOUR_APIKEY(Shuld Override by .kitchen.local.yml)
