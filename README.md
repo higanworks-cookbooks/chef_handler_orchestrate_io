@@ -3,6 +3,8 @@ chef_handler_orchestrate_io Cookbook
 
 Send Chef reprot or exception report to [Orchestrate.io](http://orchestrate.io/)
 
+This cookbook shared as community cookbook. [http://community.opscode.com/cookbooks/chef_handler_orchestrate_io](http://community.opscode.com/cookbooks/chef_handler_orchestrate_io)
+
 Requirements
 ------------
 
